@@ -14,3 +14,14 @@ else:
     print("Invalid choice")
 print("Thank you")
 x = 0
+
+
+
+OUTPUT:
+Currency Converter
+1. USD to INR
+2. INR to USD
+Enter choice: 2
+Enter amount: 8300
+USD: 100.0
+Thank you
