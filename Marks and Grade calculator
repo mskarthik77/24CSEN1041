@@ -14,3 +14,10 @@ if marks < 40:
     print("Result: Fail")
 else:
     print("Result: Pass")
+
+
+
+output:
+Enter marks: 90
+Grade: A
+Result: Pass
