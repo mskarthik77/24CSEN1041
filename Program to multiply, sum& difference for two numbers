@@ -1,0 +1,32 @@
+print("Program to calculate sum, difference, product")
+
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+sum = a + b
+diff = a - b
+prod = a * b
+
+print("First number:", a)
+print("Second number:", b)
+
+print("Sum:", sum)
+print("Difference:", diff)
+print("Product:", prod)
+
+print("Arithmetic operations done")
+print("End of program")
+
+
+OUTPUT:
+Program to calculate sum, difference, product
+Enter first number: 7
+Enter second number: 9
+First number: 7
+Second number: 9
+Sum: 16
+Difference: -2
+Product: 63
+Arithmetic operations done
+End of program
+
