@@ -1,0 +1,29 @@
+print("Program to increment a number")
+
+num = int(input("Enter a number: "))
+
+print("Original value:", num)
+
+num += 1
+print("After first increment:", num)
+
+num += 1
+print("After second increment:", num)
+
+num += 1
+print("After third increment:", num)
+
+print("Increment process done")
+print("End of program")
+
+
+
+]OUTPUT:
+Program to increment a number
+Enter a number: 34
+Original value: 34
+After first increment: 35
+After second increment: 36
+After third increment: 37
+Increment process done
+End of program
