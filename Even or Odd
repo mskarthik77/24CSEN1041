@@ -1,0 +1,25 @@
+print("Program to check even or odd")
+
+num = int(input("Enter a number: "))
+
+print("Entered number:", num)
+
+rem = num % 2
+
+if rem == 0:
+    print("Number is Even")
+else:
+    print("Number is Odd")
+
+print("Remainder:", rem)
+print("Check completed")
+print("End of program")
+
+OUTPUT:
+Program to check even or odd
+Enter a number: 210
+Entered number: 210
+Number is Even
+Remainder: 0
+Check completed
+End of program
