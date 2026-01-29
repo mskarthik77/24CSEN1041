@@ -1,0 +1,28 @@
+print("Program to find greater number")
+
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+print("First number:", a)
+print("Second number:", b)
+
+if a > b:
+    print("Greater number is:", a)
+elif b > a:
+    print("Greater number is:", b)
+else:
+    print("Both numbers are equal")
+
+print("Comparison finished")
+print("End of program")
+
+
+OUTPUT:
+Program to find greater number
+Enter first number: 77
+Enter second number: 100
+First number: 77
+Second number: 100
+Greater number is: 100
+Comparison finished
+End of program
