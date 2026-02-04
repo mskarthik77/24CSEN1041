@@ -1,0 +1,26 @@
+def is_anagram(s1, s2):
+    if len(s1) != len(s2):
+        return False
+
+    count = {}
+
+    for char in s1:
+        count[char] = count.get(char, 0) + 1
+
+    for char in s2:
+        if char not in count or count[char] == 0:
+            return False
+        count[char] -= 1
+
+    return True
+
+
+str1 = input("Enter first string: ")
+str2 = input("Enter second string: ")
+print("Anagram:", is_anagram(str1, str2))
+
+
+OUTPUT:
+Enter first string: 78787878
+Enter second string: 96969696
+Anagram: False
