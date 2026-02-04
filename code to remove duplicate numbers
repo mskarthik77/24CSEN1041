@@ -1,0 +1,21 @@
+def remove_duplicates(s):
+    result = ""
+    seen = set()
+
+    for char in s:
+        if char not in seen:
+            seen.add(char)
+            result += char
+
+    return result
+
+
+text = input("Enter a string: ")
+output = remove_duplicates(text)
+print("String after removing duplicates:", output)
+
+
+
+OUTPUT:
+Enter a string: 7789889
+String after removing duplicates: 789
